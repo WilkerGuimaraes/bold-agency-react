@@ -8,3 +8,21 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "Raleway", sans-serif;
     }
 `;
+
+export const Colors = {
+  background: {
+    white1: "#fff",
+    white2: "#fbfcfe",
+    yellow: "#ffdd33",
+    blue: "#255aff",
+  },
+  text: {
+    white: "#fff",
+    gray1: "#ccc",
+    gray2: "#7e92ac",
+    black: "#000",
+    blue: "#0f3fd3",
+    title: "#333",
+    paragraph: "#707070",
+  },
+};
