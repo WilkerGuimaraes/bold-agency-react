@@ -1,3 +1,4 @@
+import { Banner } from "./components/banner/Banner";
 import { Brands } from "./components/brands/Brands";
 import { Details } from "./components/details/Details";
 import { Header } from "./components/header/Header";
@@ -10,6 +11,7 @@ export const App = () => {
       <Mockup />
       <Brands />
       <Details />
+      <Banner />
     </>
   );
 };
