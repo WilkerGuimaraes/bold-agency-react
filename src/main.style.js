@@ -26,6 +26,7 @@ export const Colors = {
     paragraph: "#707070",
   },
   icon: {
-    checkbox: "00aa00",
+    checkbox: "#00aa00",
+    socials: "#255aff",
   },
 };

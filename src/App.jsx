@@ -1,6 +1,7 @@
 import { Banner } from "./components/banner/Banner";
 import { Benefits } from "./components/benefits/Benefits";
 import { Brands } from "./components/brands/Brands";
+import { Depoiments } from "./components/depoiments/Depoiments";
 import { Details } from "./components/details/Details";
 import { Header } from "./components/header/Header";
 import { Mockup } from "./components/mockup/Mockup";
@@ -14,6 +15,7 @@ export const App = () => {
       <Details />
       <Banner />
       <Benefits />
+      <Depoiments />
     </>
   );
 };
