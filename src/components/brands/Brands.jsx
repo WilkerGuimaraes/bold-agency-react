@@ -10,11 +10,11 @@ export const Brands = () => {
   return (
     <>
       <BrandsContainer>
-        <BrandImage img src={brand1} alt="logo1" />
-        <BrandImage img src={brand2} alt="logo2" />
-        <BrandImage img src={brand3} alt="logo3" />
-        <BrandImage img src={brand4} alt="logo4" />
-        <BrandImage img src={brand5} alt="logo5" />
+        <BrandImage src={brand1} alt="logo1" />
+        <BrandImage src={brand2} alt="logo2" />
+        <BrandImage src={brand3} alt="logo3" />
+        <BrandImage src={brand4} alt="logo4" />
+        <BrandImage src={brand5} alt="logo5" />
       </BrandsContainer>
     </>
   );

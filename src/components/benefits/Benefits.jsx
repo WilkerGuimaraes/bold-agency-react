@@ -63,7 +63,7 @@ export const Benefits = () => {
       </BenefitsContent>
 
       <BenefitsImageContainer>
-        <BenefitsImage img src={image} alt="benefits-image" />
+        <BenefitsImage src={image} alt="benefits-image" />
       </BenefitsImageContainer>
     </BenefitsContainer>
   );

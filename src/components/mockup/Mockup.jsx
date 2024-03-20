@@ -10,7 +10,7 @@ export const Mockup = () => {
           Promova <b>experiências</b> aos seus clientes.
         </h1>
         <p>E veja resultados expressivos dia após dia.</p>
-        <MockupImage img src={mockupImage} alt="mockupImage" />
+        <MockupImage src={mockupImage} alt="mockupImage" />
       </MockupContent>
     </Container>
   );
