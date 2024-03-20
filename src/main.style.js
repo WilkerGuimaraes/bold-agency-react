@@ -25,4 +25,7 @@ export const Colors = {
     title: "#333",
     paragraph: "#707070",
   },
+  icon: {
+    checkbox: "00aa00",
+  },
 };
