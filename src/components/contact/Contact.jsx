@@ -19,11 +19,23 @@ export const Contact = () => {
         <h1>Entre em contato</h1>
         <form onClick={handleFormEvent}>
           <Label htmlFor="name">Nome:</Label>
-          <Input type="text" name="name" placeholder="Digite seu nome..." />
+          <Input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu nome..."
+            autoComplete="name"
+          />
           <Label htmlFor="email">E-mail:</Label>
-          <Input type="email" name="email" placeholder="Digite seu e-mail..." />
+          <Input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail..."
+            autoComplete="email"
+          />
           <Label htmlFor="message">Deixe sua mensagem:</Label>
-          <TextArea placeholder="..." />
+          <TextArea id="message" placeholder="..." autoComplete="off" />
           <Button
             style={{
               width: "100%",
