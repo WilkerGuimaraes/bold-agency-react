@@ -29,4 +29,9 @@ export const Colors = {
     checkbox: "#00aa00",
     socials: "#255aff",
   },
+  input: {
+    border: "#c3cce8",
+    background: "#fcfdff",
+    placeholder: "#c1c1c1",
+  },
 };
