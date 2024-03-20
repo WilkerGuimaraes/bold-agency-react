@@ -24,14 +24,33 @@ export const HeaderMenu = styled.nav`
   display: flex;
   gap: 2rem;
 
-  p {
+  a {
+    position: relative;
     font-size: 16px;
     font-weight: 700;
-    list-style: none;
+    text-decoration: none;
     color: ${Colors.text.white};
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 2px;
+      background: #e4e4e4;
+      transform: translateY(10px);
+      transition: 0.5s ease;
+      opacity: 0;
+    }
 
     &:hover {
       cursor: pointer;
+    }
+
+    &:hover::after {
+      transform: translateY(0);
+      opacity: 1;
     }
   }
 `;

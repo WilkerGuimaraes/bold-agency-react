@@ -6,10 +6,10 @@ export const Header = () => {
       <HeaderTitle>AGÊNCIA BOLD</HeaderTitle>
 
       <HeaderMenu>
-        <p>Início</p>
-        <p>Por que nós?</p>
-        <p>Depoimentos</p>
-        <p>Entre em contato</p>
+        <a href="#">Início</a>
+        <a href="#">Por que nós?</a>
+        <a href="#">Depoimentos</a>
+        <a href="#">Entre em contato</a>
       </HeaderMenu>
     </HeaderContainer>
   );
