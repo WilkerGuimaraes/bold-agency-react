@@ -18,7 +18,13 @@ import {
 } from "./Depoiments.style";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -110,19 +116,23 @@ export const Depoiments = () => {
       <CarouselContainer>
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={50}
           slidesPerView={3}
           loop={true}
+          autoplay={{ delay: 5000 }}
           grabCursor={true}
-          navigation
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
           pagination={{ clickable: true, dynamicBullets: true }}
           style={{ padding: "45px" }}
           breakpoints={{
             0: {
               slidesPerView: 1,
             },
-            520: {
+            650: {
               slidesPerView: 2,
             },
             950: {
@@ -154,6 +164,8 @@ export const Depoiments = () => {
               </Card>
             </SwiperSlide>
           ))}
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next"></div>
         </Swiper>
       </CarouselContainer>
     </DepoimentsContainer>

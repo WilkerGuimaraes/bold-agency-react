@@ -6,6 +6,13 @@ export const DepoimentsContainer = styled.div`
   flex-direction: column;
   background-color: ${Colors.background.white2};
   padding: 80px 0;
+
+  @media (max-width: 768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }
+  }
 `;
 
 export const TitleContainer = styled.div`
