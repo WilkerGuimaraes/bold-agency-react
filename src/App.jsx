@@ -30,7 +30,10 @@ export const App = () => {
       <Contact />
       <Footer />
       {isVisible && (
-        <MobileMenu isVisible={isVisible} toggleMobileMenu={toggleMobileMenu} />
+        <MobileMenu
+          $isVisible={isVisible}
+          toggleMobileMenu={toggleMobileMenu}
+        />
       )}
     </>
   );
