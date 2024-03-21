@@ -11,7 +11,7 @@ export const BannerContainer = styled.div`
 
 export const BannerContent = styled.div`
   text-align: center;
-  padding: 80px 0;
+  padding: 80px 8%;
 
   h1 {
     font-size: 40px;
