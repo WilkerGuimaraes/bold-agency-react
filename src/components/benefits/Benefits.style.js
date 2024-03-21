@@ -3,8 +3,12 @@ import { Colors } from "../../main.style";
 
 export const BenefitsContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
   padding: 50px 5%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 40px;
+  }
 `;
 
 export const BenefitsContent = styled.div`
@@ -16,6 +20,10 @@ export const BenefitsContent = styled.div`
 
   h1 {
     font-size: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 
@@ -31,10 +39,14 @@ export const BenefitsWrapper = styled.div`
 `;
 
 export const BenefitsImageContainer = styled.div`
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const BenefitsImage = styled.img`
