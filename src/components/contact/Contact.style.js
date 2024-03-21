@@ -7,6 +7,7 @@ export const FormContainer = styled.div`
   align-items: center;
   height: 70vh;
   padding: 0 10%;
+  margin: 50px 0;
 `;
 
 export const FormContent = styled.div`
@@ -14,9 +15,9 @@ export const FormContent = styled.div`
   width: 100%;
 
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 `;
 export const Label = styled.label`

@@ -13,7 +13,7 @@ export const TitleContainer = styled.div`
   margin: 0 auto;
 
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 `;
 
