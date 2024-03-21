@@ -53,4 +53,25 @@ export const HeaderMenu = styled.nav`
       opacity: 1;
     }
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const HeaderHamburguerMenu = styled.div`
+  padding: 0 5px;
+
+  svg {
+    font-size: 32px;
+    color: ${Colors.text.white};
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
