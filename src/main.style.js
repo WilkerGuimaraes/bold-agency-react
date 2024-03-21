@@ -15,6 +15,7 @@ export const Colors = {
     white2: "#fbfcfe",
     yellow: "#ffdd33",
     blue: "#255aff",
+    mobileMenu: "#1745c2",
   },
   text: {
     white: "#fff",
