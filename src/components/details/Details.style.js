@@ -4,13 +4,15 @@ import { Colors } from "../../main.style";
 export const DetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  gap: 70px;
+  min-height: 80vh;
+  padding: 80px 0;
   background-color: ${Colors.background.white2};
 `;
 
 export const DetailsTitle = styled.div`
   text-align: center;
-  padding: 70px 0;
+  padding: 0 10%;
 
   h1 {
     font-size: 45px;
@@ -25,11 +27,16 @@ export const DetailsTitle = styled.div`
 export const DetailsContent = styled.div`
   display: flex;
   gap: 20px;
-  padding: 0 4%;
+  padding: 0 10%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const DetailsCard = styled.div`
-  width: 536px;
+  /* width: 536px; */
   padding: 40px 30px;
   border-radius: 20px;
   background-color: ${Colors.background.white1};
