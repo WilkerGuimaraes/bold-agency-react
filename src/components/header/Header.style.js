@@ -7,6 +7,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 20px;
+  border-bottom: 1px solid ${Colors.background.white1};
   background-color: ${Colors.background.blue};
 `;
 
