@@ -18,16 +18,65 @@ export const App = () => {
     setIsVisible((prev) => !prev);
   };
 
+  const smoothScroll = (targetId) => {
+    const headerId = document.getElementById("header").scrollHeight;
+    const mockupId = document.getElementById("mockup").scrollHeight;
+    const brandsId = document.getElementById("brands").scrollHeight;
+    const detailsId = document.getElementById("details").scrollHeight;
+    const benefitsId = document.getElementById("benefits").scrollHeight;
+    const bannerId = document.getElementById("banner").scrollHeight;
+    const depoimentsId = document.getElementById("depoiments").scrollHeight;
+
+    if (targetId === "details") {
+      setTimeout(() => {
+        return window.scrollBy({
+          top: headerId + mockupId + brandsId,
+          behavior: "smooth",
+        });
+      }, 300);
+    }
+
+    if (targetId === "depoiments") {
+      setTimeout(() => {
+        return window.scrollBy({
+          top:
+            headerId + mockupId + brandsId + detailsId + benefitsId + bannerId,
+          behavior: "smooth",
+        });
+      }, 300);
+    }
+
+    if (targetId === "contact") {
+      setTimeout(() => {
+        return window.scrollBy({
+          top:
+            headerId +
+            mockupId +
+            brandsId +
+            detailsId +
+            benefitsId +
+            bannerId +
+            depoimentsId,
+          behavior: "smooth",
+        });
+      }, 300);
+    }
+  };
+
   return (
     <>
-      <Header toggleMobileMenu={toggleMobileMenu} />
-      <Mockup />
-      <Brands />
-      <Details />
-      <Banner />
-      <Benefits />
-      <Depoiments />
-      <Contact />
+      <Header
+        id="header"
+        toggleMobileMenu={toggleMobileMenu}
+        smoothScroll={smoothScroll}
+      />
+      <Mockup id="mockup" />
+      <Brands id="brands" />
+      <Details id="details" />
+      <Banner id="banner" />
+      <Benefits id="benefits" />
+      <Depoiments id="depoiments" />
+      <Contact id="contact" />
       <Footer />
       {isVisible && (
         <MobileMenu
