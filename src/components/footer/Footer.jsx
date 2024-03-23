@@ -7,8 +7,15 @@ export const Footer = () => {
     <FooterContainer>
       <p>Projeto Desenvolvido por Wilker Guimarães</p>
       <IconsContainer>
-        <IoLogoLinkedin />
-        <IoLogoGithub />
+        <a
+          href="https://www.linkedin.com/in/wilker-guimaraes-944a93175/"
+          target="_blank"
+        >
+          <IoLogoLinkedin />
+        </a>
+        <a href="https://github.com/WilkerGuimaraes" target="_blank">
+          <IoLogoGithub />
+        </a>
       </IconsContainer>
     </FooterContainer>
   );
