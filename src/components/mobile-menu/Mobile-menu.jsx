@@ -8,9 +8,16 @@ import {
   MenuList,
 } from "./Mobile-menu.style";
 
-export const MobileMenu = ({ isVisible, toggleMobileMenu }) => {
+export const MobileMenu = ({ isVisible, toggleMobileMenu, smoothScroll }) => {
   const handleCloseIconClick = () => {
     toggleMobileMenu();
+  };
+
+  const scrollToSection = (sectionId) => {
+    setTimeout(() => {
+      smoothScroll(sectionId);
+      toggleMobileMenu();
+    }, 200);
   };
 
   return (
@@ -22,9 +29,9 @@ export const MobileMenu = ({ isVisible, toggleMobileMenu }) => {
         </CloseIconContainer>
 
         <MenuList>
-          <p>Por que nós?</p>
-          <p>Depoimentos</p>
-          <p>Entre em contato</p>
+          <p onClick={() => scrollToSection("details")}>Por que nós?</p>
+          <p onClick={() => scrollToSection("depoiments")}>Depoimentos</p>
+          <p onClick={() => scrollToSection("contact")}>Entre em contato</p>
         </MenuList>
       </MobileMenuContent>
     </MobileMenuContainer>

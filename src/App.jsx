@@ -82,6 +82,7 @@ export const App = () => {
         <MobileMenu
           $isVisible={isVisible}
           toggleMobileMenu={toggleMobileMenu}
+          smoothScroll={smoothScroll}
         />
       )}
     </>
