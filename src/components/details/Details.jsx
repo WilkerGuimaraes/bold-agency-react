@@ -9,9 +9,9 @@ import icon1 from "../../assets/ICONE1.png";
 import icon2 from "../../assets/ICONE2.png";
 import icon3 from "../../assets/ICONE3.png";
 
-export const Details = () => {
+export const Details = ({ id }) => {
   return (
-    <DetailsContainer>
+    <DetailsContainer id={id}>
       <DetailsTitle>
         <h1>Por que nós?</h1>
         <p>

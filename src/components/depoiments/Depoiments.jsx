@@ -40,7 +40,7 @@ import profile7 from "../../assets/profile7.jpg";
 import profile8 from "../../assets/profile8.jpg";
 import profile9 from "../../assets/profile9.jpg";
 
-export const Depoiments = () => {
+export const Depoiments = ({ id }) => {
   const data = [
     {
       id: crypto.randomUUID(),
@@ -108,7 +108,7 @@ export const Depoiments = () => {
   ];
 
   return (
-    <DepoimentsContainer>
+    <DepoimentsContainer id={id}>
       <TitleContainer>
         <h1>Depoimentos</h1>
       </TitleContainer>

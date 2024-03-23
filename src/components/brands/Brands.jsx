@@ -6,16 +6,14 @@ import brand3 from "../../assets/LOGO3.png";
 import brand4 from "../../assets/LOGO4.png";
 import brand5 from "../../assets/LOGO5.png";
 
-export const Brands = () => {
+export const Brands = ({ id }) => {
   return (
-    <>
-      <BrandsContainer>
-        <BrandImage src={brand1} alt="logo1" />
-        <BrandImage src={brand2} alt="logo2" />
-        <BrandImage src={brand3} alt="logo3" />
-        <BrandImage src={brand4} alt="logo4" />
-        <BrandImage src={brand5} alt="logo5" />
-      </BrandsContainer>
-    </>
+    <BrandsContainer id={id}>
+      <BrandImage src={brand1} alt="logo1" />
+      <BrandImage src={brand2} alt="logo2" />
+      <BrandImage src={brand3} alt="logo3" />
+      <BrandImage src={brand4} alt="logo4" />
+      <BrandImage src={brand5} alt="logo5" />
+    </BrandsContainer>
   );
 };

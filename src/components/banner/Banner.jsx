@@ -3,9 +3,9 @@ import { Colors } from "../../main.style";
 
 import { Button } from "../button/Button";
 
-export const Banner = () => {
+export const Banner = ({ id }) => {
   return (
-    <BannerContainer>
+    <BannerContainer id={id}>
       <BannerContent>
         <h1>Vamos começar seu projeto?</h1>
         <p>Fale com um consultor e tire sua idéia do papel.</p>

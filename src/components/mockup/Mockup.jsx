@@ -2,9 +2,9 @@ import { Container, MockupContent, MockupImage } from "./Mockup.style";
 
 import mockupImage from "../../assets/mockup-content.jpg";
 
-export const Mockup = () => {
+export const Mockup = ({ id }) => {
   return (
-    <Container>
+    <Container id={id}>
       <MockupContent>
         <h1>
           Promova <b>experiências</b> aos seus clientes.

@@ -12,9 +12,9 @@ import image from "../../assets/IMAGEM1.png";
 import { Button } from "../button/Button";
 import { Colors } from "../../main.style";
 
-export const Benefits = () => {
+export const Benefits = ({ id }) => {
   return (
-    <BenefitsContainer>
+    <BenefitsContainer id={id}>
       <BenefitsContent>
         <h1>Benefícios para você</h1>
 
