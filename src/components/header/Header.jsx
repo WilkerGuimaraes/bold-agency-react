@@ -7,16 +7,20 @@ import {
   HeaderTitle,
 } from "./Header.style";
 
-export const Header = ({ toggleMobileMenu }) => {
+export const Header = ({ id, toggleMobileMenu, smoothScroll }) => {
+  const scrollToSection = (sectionId) => {
+    smoothScroll(sectionId);
+  };
+
   return (
-    <HeaderContainer>
+    <HeaderContainer id={id}>
       <HeaderTitle>AGÊNCIA BOLD</HeaderTitle>
 
       <HeaderMenu>
-        <a href="#">Início</a>
-        <a href="#">Por que nós?</a>
-        <a href="#">Depoimentos</a>
-        <a href="#">Entre em contato</a>
+        <p>Início</p>
+        <p onClick={() => scrollToSection("details")}>Por que nós?</p>
+        <p onClick={() => scrollToSection("depoiments")}>Depoimentos</p>
+        <p onClick={() => scrollToSection("contact")}>Entre em contato</p>
       </HeaderMenu>
 
       <HeaderHamburguerMenu onClick={toggleMobileMenu}>

@@ -25,11 +25,10 @@ export const HeaderMenu = styled.nav`
   display: flex;
   gap: 2rem;
 
-  a {
+  p {
     position: relative;
     font-size: 16px;
     font-weight: 700;
-    text-decoration: none;
     color: ${Colors.text.white};
 
     &::after {
