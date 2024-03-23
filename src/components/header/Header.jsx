@@ -17,7 +17,6 @@ export const Header = ({ id, toggleMobileMenu, smoothScroll }) => {
       <HeaderTitle>AGÊNCIA BOLD</HeaderTitle>
 
       <HeaderMenu>
-        <p>Início</p>
         <p onClick={() => scrollToSection("details")}>Por que nós?</p>
         <p onClick={() => scrollToSection("depoiments")}>Depoimentos</p>
         <p onClick={() => scrollToSection("contact")}>Entre em contato</p>

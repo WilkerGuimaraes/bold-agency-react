@@ -22,10 +22,9 @@ export const MobileMenu = ({ isVisible, toggleMobileMenu }) => {
         </CloseIconContainer>
 
         <MenuList>
-          <a href="#">Início</a>
-          <a href="#">Por que nós?</a>
-          <a href="#">Depoimentos</a>
-          <a href="#">Entre em contato</a>
+          <p>Por que nós?</p>
+          <p>Depoimentos</p>
+          <p>Entre em contato</p>
         </MenuList>
       </MobileMenuContent>
     </MobileMenuContainer>

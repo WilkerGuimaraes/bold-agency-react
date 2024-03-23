@@ -49,7 +49,7 @@ export const MenuList = styled.div`
   gap: 40px;
   height: 100%;
 
-  a {
+  p {
     position: relative;
     font-size: 16px;
     font-weight: 700;
