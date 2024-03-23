@@ -25,7 +25,7 @@ npm run dev
 
 ```
 
-Assim que o projeto estiver rodando, acesse o seu http://localhost:5173/
+Assim que o projeto estiver rodando, acesse o seu `http://localhost:5173/`
 
 ## 🙋‍♂️ Colaborador
 Este projeto foi desenvolvido apenas por mim Wilker Guimarães, com o objetivo de praticar e exibir conhecimentos de desenvolvimento front-end.
