@@ -1,4 +1,4 @@
-![home_page](https://imgur.com/d9lAieE.png)
+![home_page](https://imgur.com/sI0nacY.png)
 
 # Agência Bold
 
