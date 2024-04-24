@@ -15,6 +15,7 @@ import {
   ImageContent,
   CardContent,
   SocialsContainer,
+  CardContentDescription,
 } from "./Depoiments.style";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -45,65 +46,65 @@ export const Depoiments = ({ id }) => {
     {
       id: crypto.randomUUID(),
       image: profile1,
-      title: "Lorem Ipsum",
+      title: "Maria Oliveira",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "Estou extremamente satisfeita com o trabalho da Agência Bold. Eles foram muito profissionais, prestativos e entregaram um site de alta qualidade dentro do prazo estipulado. Com certeza farei mais projetos com eles no futuro!",
     },
     {
       id: crypto.randomUUID(),
       image: profile2,
-      title: "Lorem Ipsum",
+      title: "Carla Rodrigues",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "O trabalho da Agência Bold foi fundamental para o sucesso do meu negócio. Eles desenvolveram um site incrível, moderno e totalmente responsivo. Além disso, o atendimento foi excepcional. Estou muito satisfeita com o resultado!",
     },
     {
       id: crypto.randomUUID(),
       image: profile3,
-      title: "Lorem Ipsum",
+      title: "João Silva",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "A equipe da Agência Bold superou minhas expectativas! Eles desenvolveram um aplicativo incrível para minha empresa, tornando todo o processo muito fácil e eficiente. Recomendo fortemente seus serviços!",
     },
     {
       id: crypto.randomUUID(),
       image: profile4,
-      title: "Lorem Ipsum",
+      title: "Pedro Santos",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "Contratei a Agência Bold para desenvolver um sistema de gestão para minha empresa e fiquei impressionado com o resultado. O sistema ficou excelente e facilitou muito o nosso dia a dia. Recomendo a todos!",
     },
     {
       id: crypto.randomUUID(),
       image: profile5,
-      title: "Lorem Ipsum",
+      title: "Rafael Costa",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "Excelente serviço prestado pela Agência Bold! Eles entenderam perfeitamente minhas necessidades e entregaram um aplicativo que superou todas as minhas expectativas. Profissionalismo e qualidade do início ao fim!",
     },
     {
       id: crypto.randomUUID(),
       image: profile6,
-      title: "Lorem Ipsum",
+      title: "Amanda Souza",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "Estou muito feliz com o resultado do projeto desenvolvido pela Agência Bold. Eles foram extremamente atenciosos, entenderam minhas ideias e transformaram em realidade. Recomendo a todos que buscam qualidade e profissionalismo!",
     },
     {
       id: crypto.randomUUID(),
       image: profile7,
-      title: "Lorem Ipsum",
+      title: "Fernando Oliveira",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "A equipe da Agência Bold é incrível! Eles foram muito dedicados e comprometidos em atender todas as minhas necessidades. O site que eles desenvolveram para minha empresa ficou perfeito. Super recomendo!",
     },
     {
       id: crypto.randomUUID(),
       image: profile8,
-      title: "Lorem Ipsum",
+      title: "Laura Santos",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "Contratei a Agência Bold para desenvolver um aplicativo para minha startup e não poderia estar mais satisfeita com o resultado. Eles foram muito profissionais, criativos e entregaram o projeto dentro do prazo. Recomendo a todos!",
     },
     {
       id: crypto.randomUUID(),
       image: profile9,
-      title: "Lorem Ipsum",
+      title: "Marcos Oliveira",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat massa porta, vehicula elit vel, finibus nisi. Nam quis faucibus lorem. Cras tincidunt tincidunt pellentesque. Etiam tempus ipsum eget velit feugiat, eget scelerisque erat tempus. Mauris posuere lobortis sapien, in ornare mauris venenatis id. Etiam mollis velit ac euismod semper.",
+        "Fiquei impressionado com a qualidade do serviço prestado pela Agência Bold. Eles desenvolveram um sistema personalizado para minha empresa, atendendo a todas as nossas demandas e superando nossas expectativas. Sem dúvida, uma equipe altamente competente e profissional!",
     },
   ];
 
@@ -151,8 +152,10 @@ export const Depoiments = ({ id }) => {
                 </ImageContent>
 
                 <CardContent>
-                  <h3>{d.title}</h3>
-                  <p>{d.description}</p>
+                  <CardContentDescription>
+                    <h3>{d.title}</h3>
+                    <p>{d.description}</p>
+                  </CardContentDescription>
 
                   <SocialsContainer>
                     <IoLogoInstagram />

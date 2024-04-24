@@ -97,9 +97,11 @@ export const CardImg = styled.img`
 export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  min-height: 28vh;
   gap: 10px;
-  padding: 10px 20px;
+  padding: 20px;
 
   h3 {
     font-size: 18px;
@@ -112,6 +114,13 @@ export const CardContent = styled.div`
     color: ${Colors.text.paragraph};
     text-align: center;
   }
+`;
+
+export const CardContentDescription = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 `;
 
 export const SocialsContainer = styled.div`
