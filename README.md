@@ -1,4 +1,4 @@
-![home_page](https://imgur.com/sI0nacY.png)
+![home_page](https://imgur.com/zIPbDrN.png)
 
 # Agência Bold
 
@@ -9,7 +9,9 @@ Esta é um projeto front-end cujo objetivo foi desenvolver uma plataforma de con
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 	![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 ## ⚙ Recursos
-Este projeto utiliza o Swiper, uma biblioteca JavaScript de código aberto para a utilização de um carrossel para exibir a experiência dos clientes com os serviços prestados pela Agencia Bold.
+Este projeto utiliza o `Swiper`, uma biblioteca JavaScript de código aberto para a utilização de um carrossel para exibir a experiência dos clientes com os serviços prestados pela Agencia Bold.
+
+https://github.com/WilkerGuimaraes/bold-agency-react/assets/141461291/bf253a84-95af-4cfe-9116-ce8e83698c59
 
 ## 💻 Executando
 Após clonar o repositório, acesse a pasta do projeto e execute os comandos abaixo no seu terminal:
